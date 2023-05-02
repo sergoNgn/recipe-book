@@ -26,7 +26,7 @@ const Home: FC = () => {
 
   useEffect(() => {
     if (isError) {
-      toast.error("Something went wrong. Please refresh te page.");
+      toast.error("Something went wrong. Please refresh the page.");
     }
   }, [isError]);
 
