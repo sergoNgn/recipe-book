@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Page renders home page 1`] = `
+<div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthLg css-1oqqzyl-MuiContainer-root"
+  >
+    <div
+      class="MuiBox-root css-0"
+    />
+    <div
+      class="w-full h-20 pt-3 MuiBox-root css-0"
+      style="background-image: url(/images/background.jpg); background-size: cover; background-repeat: no-repeat; height: 20vh; background-position: center;"
+    >
+      <h1
+        class="text-3xl font-bold text-white ml-2 select-none"
+      >
+        Recipe Book
+      </h1>
+    </div>
+    <div
+      class="w-full mt-8 flex flex-col justify-center MuiBox-root css-0"
+    >
+      <div
+        class="flex flex-row items-center m-2 gap-3 MuiBox-root css-0"
+      >
+        <svg
+          aria-hidden="true"
+          aria-label="New Recipe"
+          class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium icon-btn css-ci5apu-MuiSvgIcon-root"
+          data-mui-internal-clone-element="true"
+          data-testid="AddCircleOutlineIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+          />
+        </svg>
+        <svg
+          aria-hidden="true"
+          aria-label="Filter"
+          class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium icon-btn css-ci5apu-MuiSvgIcon-root"
+          data-mui-internal-clone-element="true"
+          data-testid="FilterListOutlinedIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z"
+          />
+        </svg>
+        <div
+          class="MuiCollapse-root MuiCollapse-horizontal MuiCollapse-hidden css-5nave7-MuiCollapse-root"
+          style="min-width: 0px;"
+        >
+          <div
+            class="MuiCollapse-wrapper MuiCollapse-horizontal css-18w3a48-MuiCollapse-wrapper"
+          >
+            <div
+              class="MuiCollapse-wrapperInner MuiCollapse-horizontal css-14vyde3-MuiCollapse-wrapperInner"
+            >
+              <div
+                class="MuiFormControl-root MuiTextField-root w-80 css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+              >
+                <div
+                  class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary Mui-focused MuiInputBase-formControl MuiInputBase-sizeSmall css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+                >
+                  <input
+                    aria-invalid="false"
+                    autocomplete="off"
+                    class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall css-1n4twyu-MuiInputBase-input-MuiOutlinedInput-input"
+                    id=":r3:"
+                    placeholder="by name"
+                    type="text"
+                    value=""
+                  />
+                  <fieldset
+                    aria-hidden="true"
+                    class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                  >
+                    <legend
+                      class="css-ihdtdm"
+                    >
+                      <span
+                        class="notranslate"
+                      >
+                        ​
+                      </span>
+                    </legend>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <svg
+          aria-hidden="true"
+          aria-label="sort by created date asc"
+          class="MuiSvgIcon-root MuiSvgIcon-colorPrimary MuiSvgIcon-fontSizeMedium icon-btn css-ci5apu-MuiSvgIcon-root"
+          data-mui-internal-clone-element="true"
+          data-testid="ExpandLessIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="m12 8-6 6 1.41 1.41L12 10.83l4.59 4.58L18 14z"
+          />
+        </svg>
+      </div>
+      <div
+        class="flex flex-col MuiBox-root css-0"
+      >
+        <div
+          class="flex flex-wrap lg:xl:justify-start sm:justify-center gap-8 p-4 pl-4 pr-3 max-h-2/4 overflow-auto MuiBox-root css-0"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root cursor-pointer hover:shadow-lg h-54 sm:w-full md:w-2/5 xl:w-64 css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <img
+              alt="recipe image"
+              class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-rgbcif-MuiCardMedia-root"
+              src="/images/recipe.jpg"
+            />
+            <div
+              class="MuiCardContent-root select-none css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom truncate css-1wniyei-MuiTypography-root"
+                title="recipe #1"
+              >
+                recipe #1
+              </div>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+              >
+                short description
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root cursor-pointer hover:shadow-lg h-54 sm:w-full md:w-2/5 xl:w-64 css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <img
+              alt="recipe image"
+              class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-rgbcif-MuiCardMedia-root"
+              src="/images/recipe.jpg"
+            />
+            <div
+              class="MuiCardContent-root select-none css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom truncate css-1wniyei-MuiTypography-root"
+                title="recipe #2"
+              >
+                recipe #2
+              </div>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+              >
+                short description
+              </p>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root cursor-pointer hover:shadow-lg h-54 sm:w-full md:w-2/5 xl:w-64 css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <img
+              alt="recipe image"
+              class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-rgbcif-MuiCardMedia-root"
+              src="/images/recipe.jpg"
+            />
+            <div
+              class="MuiCardContent-root select-none css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom truncate css-1wniyei-MuiTypography-root"
+                title="recipe #2"
+              >
+                recipe #2
+              </div>
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+              >
+                short description
+              </p>
+            </div>
+          </div>
+        </div>
+        <nav
+          aria-label="pagination navigation"
+          class="MuiPagination-root MuiPagination-text mt-5 self-center css-1oj2twp-MuiPagination-root"
+          hidden=""
+        >
+          <ul
+            class="MuiPagination-ul css-wjh20t-MuiPagination-ul"
+          >
+            <li>
+              <button
+                aria-label="Go to previous page"
+                class="MuiButtonBase-root Mui-disabled MuiPaginationItem-root MuiPaginationItem-sizeSmall MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-textPrimary Mui-disabled MuiPaginationItem-previousNext css-1hxrwmy-MuiButtonBase-root-MuiPaginationItem-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-tnzq9a-MuiSvgIcon-root-MuiPaginationItem-icon"
+                  data-testid="NavigateBeforeIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"
+                  />
+                </svg>
+              </button>
+            </li>
+            <li>
+              <button
+                aria-current="true"
+                aria-label="page 1"
+                class="MuiButtonBase-root MuiPaginationItem-root MuiPaginationItem-sizeSmall MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-textPrimary Mui-selected MuiPaginationItem-page css-1hxrwmy-MuiButtonBase-root-MuiPaginationItem-root"
+                tabindex="0"
+                type="button"
+              >
+                1
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </button>
+            </li>
+            <li>
+              <button
+                aria-label="Go to next page"
+                class="MuiButtonBase-root Mui-disabled MuiPaginationItem-root MuiPaginationItem-sizeSmall MuiPaginationItem-text MuiPaginationItem-circular MuiPaginationItem-textPrimary Mui-disabled MuiPaginationItem-previousNext css-1hxrwmy-MuiButtonBase-root-MuiPaginationItem-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-tnzq9a-MuiSvgIcon-root-MuiPaginationItem-icon"
+                  data-testid="NavigateNextIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+                  />
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</div>
+`;

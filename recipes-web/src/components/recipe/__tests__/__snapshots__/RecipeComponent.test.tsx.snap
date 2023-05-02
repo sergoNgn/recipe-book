@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recipe Component renders recipe component 1`] = `
+<body>
+  <div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root cursor-pointer hover:shadow-lg h-54 sm:w-full md:w-2/5 xl:w-64 css-bhp9pd-MuiPaper-root-MuiCard-root"
+    >
+      <img
+        alt="recipe image"
+        class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-rgbcif-MuiCardMedia-root"
+        src="/images/recipe.jpg"
+      />
+      <div
+        class="MuiCardContent-root select-none css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-gutterBottom truncate css-1wniyei-MuiTypography-root"
+          title="recipe #1"
+        >
+          recipe #1
+        </div>
+        <p
+          class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+        >
+          short description
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+`;

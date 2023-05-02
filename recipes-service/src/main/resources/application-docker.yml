@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    show-sql: false
+  datasource:
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+    driverClassName: org.postgresql.Driver
+flyway:
+  url: jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+  user: ${PGUSER}
+  password: ${PGPASSWORD}

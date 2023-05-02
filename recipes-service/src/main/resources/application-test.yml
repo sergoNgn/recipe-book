@@ -1,0 +1,14 @@
+spring:
+  jpa:
+#    ddl-auto: generate
+  datasource:
+    url: jdbc:h2:mem:test-db
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+flyway:
+  url: jdbc:h2:mem:db
+  user: sa
+  location: "file"
+  password: password
+
