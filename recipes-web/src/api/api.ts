@@ -27,7 +27,7 @@ export async function getRecipe(params: RequestParams): Promise<Recipe> {
 }
 
 export async function deleteRecipe(id: number): Promise<any> {
-  return axios.delete(`/recipes/${id}`);
+  return axios.delete(`/api/recipes/${id}`);
 }
 
 export async function saveRecipe(recipe: Recipe): Promise<number> {
