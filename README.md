@@ -7,7 +7,7 @@ Recipes Book web app
 For building and running the application you need:
 
 - docker
-- node 19^
+- node 19
 - JDK 17
 - Maven 3
 
