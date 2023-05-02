@@ -15,7 +15,7 @@ insert into recipes values
 (1001, '2023-05-01T14:00:12.426403', '2023-05-01T14:00:12.426403', 'World''s Best Lasagna', 'This lasagna recipe takes a little work, but it is so satisfying and filling that it''s worth it!'),
 (1002, '2023-05-01T15:00:12.426403', '2023-05-01T15:00:12.426403', 'Super-Delicious Zuppa Toscana', 'Zuppa Toscana is oh-so-good! This recipe has just the right amount of spice to keep you coming back for more!'),
 (1003, '2023-05-01T16:00:12.426403', '2023-05-01T16:00:12.426403', 'Good Old-Fashioned Pancakes', 'I found this pancake recipe in my Grandma''s recipe book. Judging from the weathered look of this recipe card, this was a family favorite.'),
-(1004, '2023-05-01T17:00:12.426403', '2023-05-01T17:00:12.426403', 'Dill Chicken Salad', 'This chicken salad has a bright, robust taste from the lemon dill dressing, which is a nod to another Allrecipes submission, Easy Lemony-Dilly Cucumber Salad. We like it served on toasted croissants.');
+(1004, '2023-05-01T17:00:12.426403', '2023-05-01T17:00:12.426403', 'Dill Chicken Salad', 'This chicken salad has a bright, robust taste from the lemon dill dressing, which is a nod to another Allrecipes submission.');
 
 insert into recipe_descriptions values
 (1001, 'The Allrecipes community adores this lasagna recipe because it''s incredibly customizable, so you can easily alter the ingredient list to suit your needs. If you want to stay true to the original recipe, though, these are the ingredients you''ll need to add to your grocery list:
